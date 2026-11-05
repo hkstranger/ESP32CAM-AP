@@ -1,6 +1,6 @@
 // ESP32-CAM 分階段測試：搵出邊一步崩潰
 // STAGE 1 = 只測鏡頭 | 2 = 鏡頭 + WiFi AP | 3 = 鏡頭 + WiFi AP + 簡單網頁
-#define STAGE 1
+#define STAGE 2
 
 #include <WiFi.h>
 #include "esp_camera.h"
